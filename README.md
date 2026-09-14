@@ -26,13 +26,17 @@ That is enforced at Meta's API, not by this app, which is why:
 Your two use cases fall into different template categories, and this matters
 for cost:
 
-| Use case | Category | Notes |
-|---|---|---|
-| Renewal reminder | **Utility** | Much cheaper; free inside an open 24-hour service window |
-| Birthday wish | **Marketing** | Pricier, stricter on opt-in, first to hurt your quality rating |
+| Use case | Category | Meta rate (India, 2026) | + 18% GST | Notes |
+|---|---|---|---|---|
+| Renewal reminder | **Utility** | ₹0.1150 | ₹0.1357 | Free inside an open 24-hour customer service window |
+| Birthday wish | **Marketing** | ₹0.8631 | ₹1.0185 | ~7.5x utility; stricter on opt-in, first to hurt your quality rating |
 
-Check the [current rate card](https://business.whatsapp.com/products/platform-pricing) —
-Meta moved to per-message pricing in mid-2025 and rates change.
+Meta charges per *delivered* message (per-message pricing replaced conversation
+pricing in mid-2025). Rates change — confirm against
+[Meta's pricing docs](https://developers.facebook.com/docs/whatsapp/pricing)
+before budgeting. Several industry write-ups claim utility templates inside the
+24-hour window stop being free on 1 October 2026; Meta's own pricing page does
+not say so at the time of writing, so verify rather than assume either way.
 
 ---
 

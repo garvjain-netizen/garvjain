@@ -39,7 +39,7 @@ export const env = {
   databaseUrl: str("DATABASE_URL", "postgres://postgres@127.0.0.1:5432/wa_automation")!,
 
   // WhatsApp Cloud API
-  apiVersion: str("WHATSAPP_API_VERSION", "v21.0")!,
+  apiVersion: str("WHATSAPP_API_VERSION", "v23.0")!,
   phoneNumberId: str("WHATSAPP_PHONE_NUMBER_ID"),
   accessToken: str("WHATSAPP_ACCESS_TOKEN"),
   businessAccountId: str("WHATSAPP_BUSINESS_ACCOUNT_ID"),
